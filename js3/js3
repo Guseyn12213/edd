@@ -1,0 +1,11 @@
+let str=" ";
+let star= " * ";
+function purple(hei) {
+	for(let i=0; i<hei;i++)
+	{
+		str+=star;
+		console.log(str);
+		
+	}
+}
+purple(10);
